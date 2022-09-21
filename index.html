@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climatizado</title>
+    <link rel="icon" href="/app - clima/assets/solcito.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="search">
+                <h1>¿Cómo está el clima en...</h1>
+                <form id="form">
+                    <button type="submit" class="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    </button>
+                    <input type="text" name="city" placeholder="ingrese la ciudad" id="city" autocomplete="off">
+                </form>
+            </div>
+            <p class="wait">Por favor... ingrese la ciudad</p>
+            <div class="card-container">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Hecho con mucho amor 🎈</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="/app - clima/request.js"></script>
+</body>
+
+</html>
